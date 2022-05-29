@@ -9,7 +9,7 @@ using TMPro;
 /// </summary>
 public class RoomInfo : MonoBehaviour
 {
-    //These strings holds the text displayed on the button as info
+    //These strings holds the text displayed on the button as info, Name and Type is defined in Inspector
     public string roomName;
 
     public string roomType;
@@ -23,9 +23,7 @@ public class RoomInfo : MonoBehaviour
 
     public TMP_Text textAccess;
 
-    //public TMP_Text text≈bning;
-
-    // Changes colour for the different access types
+    // Changes colour of the TMP text for the different access types
     public TMP_ColorGradient farve;
 
 
@@ -45,7 +43,7 @@ public class RoomInfo : MonoBehaviour
 
 
     //public string dato≈bning;
-
+    //public TMP_Text text≈bning;
     // Custom accessType
     //public accessType cleareance;
 

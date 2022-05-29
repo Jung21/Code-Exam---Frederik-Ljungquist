@@ -4,17 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class NoAccessInfo : RoomInfo
+public class FreeAccessInfo : RoomInfo
 {
-
-
+   
+    /// <summary>
+    /// Will write text specified in Inspector at Start of runtime.
+    /// </summary>
     public void Start()
     {
         
 
 
-        accessText = "Ingen Adgang";
-        textAccess.color = new Color(1, 0, 0);
+        accessText = "Fri Adgang";
+        textAccess.color = Color.green;
 
         //Displays the type of access of the room
         textAccess.text = accessText;

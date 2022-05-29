@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TestingScene.unity
     guid: 6bd5b5608189e5a498f7a616652c099e
   - enabled: 1
-    path: Assets/Scenes/RumOversigt.unity
+    path: Assets/Scripts and scene relevant for exam/RumOversigt.unity
     guid: e787583d0147d9b4bab00159b2073f37
   - enabled: 1
     path: Assets/Scenes/Notifikationer.unity

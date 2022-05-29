@@ -6,10 +6,14 @@ using TMPro;
 
 public class LimitedAccessInfo : RoomInfo
 {
-
+    // String and TMP_Text specific for Limited Access Rooms
     string accessRequest = "Anmod om at få adgang til dette lokale";
 
     public TMP_Text textRequest;
+
+    /// <summary>
+    /// Will write text specified in Inspector at Start of runtime.
+    /// </summary>
     public void Start()
     {
        
