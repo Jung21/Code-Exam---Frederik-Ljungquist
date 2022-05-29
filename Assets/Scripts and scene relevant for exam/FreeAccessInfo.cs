@@ -13,8 +13,6 @@ public class FreeAccessInfo : RoomInfo
     public void Start()
     {
         
-
-
         accessText = "Fri Adgang";
         textAccess.color = Color.green;
 
@@ -26,8 +24,6 @@ public class FreeAccessInfo : RoomInfo
 
         //Displays the type of room
         textType.text = "Type: " + roomType;
-
-
 
     }
 

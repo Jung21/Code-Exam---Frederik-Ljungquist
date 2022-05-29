@@ -16,9 +16,6 @@ public class LimitedAccessInfo : RoomInfo
     /// </summary>
     public void Start()
     {
-       
-
-
         accessText = "Begrænset Adgang";
         textAccess.color = Color.yellow;
 
@@ -33,11 +30,5 @@ public class LimitedAccessInfo : RoomInfo
         //Displays the type of room
         textType.text = roomType;
 
-
-
     }
-
-
-
-
 }
