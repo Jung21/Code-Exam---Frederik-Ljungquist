@@ -2,7 +2,7 @@
  
 This is the digital version of the study card at Aalborg University Copenhagen (AAU CPH), originally made by group 208 and modified by Frederik Ljungquist. 
 An APK called "Code-Exam---Frederik-Ljungquist" is found together with this file.
-To build the application, an android phone must be connected. In Player Settings -> Publishing Settings, the keystore code is "123456".
+To build the application, an android phone must be connected. In Player Settings -> Publishing Settings, the keystore code is "123456" and project code is "123456".
  
 In order to press the play button without errors and run the application in Unity, all gyroscope elements must be disabled and 3 packages are required. 
 These are to be found in package manager as: 
